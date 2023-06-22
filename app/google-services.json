@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "185919238758",
+    "firebase_url": "https://kitchen-4d353-default-rtdb.firebaseio.com",
+    "project_id": "kitchen-4d353",
+    "storage_bucket": "kitchen-4d353.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185919238758:android:e22f2224ace1c682f9f3a7",
+        "android_client_info": {
+          "package_name": "com.android.foodorderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185919238758-2r025emiqm7ujbj1p2ibsb6d7tjlcoeh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjGVTO_NhtqcwnhXURjLFXBfuB9BqjeWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185919238758-2r025emiqm7ujbj1p2ibsb6d7tjlcoeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185919238758:android:a04c858b56e52fc6f9f3a7",
+        "android_client_info": {
+          "package_name": "com.example.kitchen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185919238758-2r025emiqm7ujbj1p2ibsb6d7tjlcoeh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjGVTO_NhtqcwnhXURjLFXBfuB9BqjeWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185919238758-2r025emiqm7ujbj1p2ibsb6d7tjlcoeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

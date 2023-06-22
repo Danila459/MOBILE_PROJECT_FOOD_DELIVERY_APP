@@ -1,0 +1,182 @@
+[
+    {
+      "name":"Столовая СГТУ",
+      "address":"Политехническая ул., 77",
+      "delivery_charge": 5,
+      "image":"https://img-fotki.yandex.ru/get/5307/33323314.c8/0_cf3f6_8c286067_orig.jpg",
+
+      "hours":{
+        "Sunday":"8:00 - 16:00",
+        "Monday":"8:00 - 16:00",
+        "Tuesday":"8:00 - 16:00",
+        "Wednesday":"8:00 - 16:00",
+        "Thursday":"8:00 - 16:00",
+        "Friday":"8:00 - 16:00",
+        "Saturday":"8:00 - 16:00"
+      },
+      "menus": [
+        {
+          "name": "Спагетти",
+          "price": 30.99,
+          "url": "https://i.pinimg.com/originals/df/83/50/df8350cdead42f44a6bd38d00aad7c14.jpg"
+        },
+        {
+          "name": "Сосиска в тесте",
+          "price": 15.99,
+          "url": "https://main-cdn.sbermegamarket.ru/hlr-system/-16/007/574/821/181/60/100029622536b0.jpg"
+        },
+        {
+          "name": "Пирожок с картошкой",
+          "price": 25.99,
+          "url": "https://i.pinimg.com/originals/e9/19/49/e919497f8498f55fd018fe90fdf2230a.jpg"
+        },
+        {
+          "name": "Плов",
+          "price": 50.99,
+          "url": "https://glamours.name/uploads/posts/2022-02/1644954869_29-glamours-name-p-svadebnii-plov-krasivo-foto-33.jpg"
+        },
+        {
+          "name": "Мини пицца",
+          "price": 40.99,
+          "url": "https://almode.ru/uploads/posts/2021-12/1639438524_10-almode-ru-p-mini-pitstsa-dlya-novogodnego-fursheta-11.jpg"
+        },
+        {
+          "name": "Борщ",
+          "price": 45.99,
+          "url": "http://джулиана.org/wp-content/uploads/2022/04/7aa7b0dc1d01de8c66aa54a77175d2e1-1320x880.jpeg"
+        },
+        {
+          "name": "хлеб",
+          "price": 5.99,
+          "url": "https://dilato.ru/wp-content/uploads/2022/09/img_8576-scaled-1.jpg"
+        }
+      ]
+    },
+    {
+      "name":"KFC",
+      "address":"2-я Садовая 106А",
+      "delivery_charge": 4,
+      "image":"https://logos-download.com/wp-content/uploads/2016/03/KFC_Logo_2006.png",
+
+      "hours":{
+        "Sunday":"8:00 - 16:00",
+        "Monday":"8:00 - 16:00",
+        "Tuesday":"8:00 - 16:00",
+        "Wednesday":"8:00 - 16:00",
+        "Thursday":"8:00 - 16:00",
+        "Friday":"8:00 - 16:00",
+        "Saturday":"8:00 - 16:00"
+      },
+      "menus": [
+        {
+          "name": "Шефбургер ",
+          "price": 134.99,
+          "url": "https://kfcrus.ru/image/cache/catalog/photo/534478958-shefburger-600x600.jpg"
+        },
+        {
+          "name": "Лонгер",
+          "price": 55.99,
+          "url": "https://www.cookingpanda.com/wp-content/uploads/2020/07/7R26235-16x9-1-scaled.jpg"
+        },
+        {
+          "name": "Твистер Де Люкс",
+          "price": 184.99,
+          "url": "https://kfcrus.ru/image/cache/catalog/photo/390720649-tvister-de-lyuks-ostryj-600x600.jpg"
+        },
+        {
+          "name": "Картошка фри",
+          "price": 50.99,
+          "url": "https://kfcrus.ru/image/cache/catalog/photo/255578786-kartofel-fri-600x600.jpg"
+        },
+        {
+          "name": "Пепси",
+          "price": 69.99,
+          "url": "https://kfcrus.ru/image/cache/catalog/photo/68226661-pepsi-600x600.jpg"
+        }
+      ]
+    },
+  {
+    "name":"Вкусно и точка",
+    "address":"просп. имени Петра Столыпина, 43",
+    "delivery_charge": 5,
+    "image":"https://avatars.dzeninfra.ru/get-zen_doc/4423511/pub_62aa29b7e8504f13d1ed0e70_62aa2b95dbed53751e42941c/scale_1200",
+    "hours":{
+      "Sunday":"8:00 - 16:00",
+      "Monday":"8:00 - 16:00",
+      "Tuesday":"8:00 - 16:00",
+      "Wednesday":"8:00 - 16:00",
+      "Thursday":"8:00 - 16:00",
+      "Friday":"8:00 - 16:00",
+      "Saturday":"8:00 - 16:00"
+    },
+    "menus": [
+      {
+        "name": "Биг Спешиал Ростбиф",
+        "price": 325.99,
+        "url": "https://vkusnoitochka.ru/resize/202x202/upload/iblock/543/i350awui1cej3kzndevhvjazoogcpsk6/large.png"
+      },
+      {
+        "name": "Сырный Фреш Маффин",
+        "price": 189.99,
+        "url": "https://vkusnoitochka.ru/resize/202x202/upload/iblock/c73/1id8qdotdh70yy1x8du0yfnat4tzrwub/large.png"
+      },
+      {
+        "name": "Сырные треугольники Чоризо",
+        "price": 109.99,
+        "url": "https://vkusnoitochka.ru/resize/202x202/upload/iblock/bf3/3o7xe62xfbuj2jlny85fqzv19tsyapy2/large.png"
+      },
+      {
+        "name": "Двойной Гранд",
+        "price": 259.99,
+        "url": "https://vkusnoitochka.ru/resize/202x202/upload/iblock/0c8/xr7tg5jg0tq415efar70i1z00hdfrjww/large.png"
+      },
+      {
+        "name": "Двойной Биг Хит",
+        "price": 225.99,
+        "url": "https://vkusnoitochka.ru/resize/202x202/upload/iblock/37c/nfcc3ytz38a489sx4nggnauknraegey1/large.png"
+      }
+    ]
+  },
+  {
+    "name":"Burger King",
+    "address":"ул. имени В.С. Зарубина, 167 (этаж 2)",
+    "delivery_charge": 6,
+    "image":"https://1000logos.net/wp-content/uploads/2016/10/Burger-King-Logo-1994-1536x864.png",
+    "hours":{
+      "Sunday":"8:00 - 16:00",
+      "Monday":"8:00 - 16:00",
+      "Tuesday":"8:00 - 16:00",
+      "Wednesday":"8:00 - 16:00",
+      "Thursday":"8:00 - 16:00",
+      "Friday":"8:00 - 16:00",
+      "Saturday":"8:00 - 16:00"
+    },
+    "menus": [
+      {
+        "name": "Кинг Наггетсы",
+        "price": 99.99,
+        "url": "https://orderapp-static.burgerkingrus.ru/x256/mobile_image/c554221ac0154021767705addbedbcff.webp"
+      },
+      {
+        "name": "Чикен Тар-Тар",
+        "price": 189.99,
+        "url": "https://orderapp-static.burgerkingrus.ru/x256/mobile_image/36e9e19965f01547e151f86b1bf4499f.webp"
+      },
+      {
+        "name": "Чикенбургер new",
+        "price": 74.99,
+        "url": "https://orderapp-static.burgerkingrus.ru/x256/mobile_image/0aa8eac09147337fb57b84694c92be58.webp"
+      },
+      {
+        "name": "Кинг Креветки",
+        "price": 199.99,
+        "url": "https://orderapp-static.burgerkingrus.ru/x256/mobile_image/969d25ca554b25b0431a0388dc4f479b.webp"
+      },
+      {
+        "name": "Воппер Ролл",
+        "price": 229.99,
+        "url": "https://orderapp-static.burgerkingrus.ru/x256/mobile_image/f7315eadbca78abf2d02f774d26972b2.webp"
+      }
+    ]
+  }
+]

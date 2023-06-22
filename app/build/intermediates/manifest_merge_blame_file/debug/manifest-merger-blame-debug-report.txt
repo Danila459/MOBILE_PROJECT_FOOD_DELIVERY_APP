@@ -1,0 +1,399 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.foodorderapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:11:5-79
+12-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:11:22-76
+13
+14    <queries>
+14-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:14:5-20:15
+15        <intent>
+15-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:15:9-19:18
+16            <action android:name="android.intent.action.VIEW" />
+16-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:16:13-65
+16-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:16:21-62
+17
+18            <data android:scheme="https" />
+18-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:18:13-44
+18-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:18:19-41
+19        </intent>
+20    </queries>
+21
+22    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\0ddafcf7d04ef949b4ed1bb1d9aa6781\jetified-firebase-iid-20.0.1\AndroidManifest.xml:24:5-68
+22-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\0ddafcf7d04ef949b4ed1bb1d9aa6781\jetified-firebase-iid-20.0.1\AndroidManifest.xml:24:22-65
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+23-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\0ddafcf7d04ef949b4ed1bb1d9aa6781\jetified-firebase-iid-20.0.1\AndroidManifest.xml:26:5-82
+23-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\0ddafcf7d04ef949b4ed1bb1d9aa6781\jetified-firebase-iid-20.0.1\AndroidManifest.xml:26:22-79
+24    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+24-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\e021c34a82ab4b04a41b96f3a800ac95\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:25:5-79
+24-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\e021c34a82ab4b04a41b96f3a800ac95\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:25:22-76
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\2f707391bf39ba2299ef22e2de3a5123\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:26:5-110
+25-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\2f707391bf39ba2299ef22e2de3a5123\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:26:22-107
+26
+27    <application
+27-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:7:5-37:19
+28        android:allowBackup="true"
+28-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:8:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.3.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\612d6966778032cc3dc083cec8b6992c\core-1.3.1\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:9:9-43
+33        android:label="@string/app_name"
+33-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:10:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:11:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:12:9-35
+36        android:theme="@style/Theme.FoodOrderApp" >
+36-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:13:9-50
+37        <activity
+37-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:14:9-16:40
+38            android:name="com.android.foodorderapp.ForgotPassword"
+38-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:15:13-43
+39            android:exported="false" />
+39-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:16:13-37
+40        <activity
+40-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:17:9-19:40
+41            android:name="com.android.foodorderapp.Login"
+41-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:18:13-34
+42            android:exported="false" />
+42-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:19:13-37
+43        <activity
+43-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:20:9-22:40
+44            android:name="com.android.foodorderapp.Registration"
+44-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:21:13-41
+45            android:exported="false" />
+45-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:22:13-37
+46        <activity
+46-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:23:9-25:40
+47            android:name="com.android.foodorderapp.PreReg"
+47-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:24:13-35
+48            android:exported="false" />
+48-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:25:13-37
+49        <activity android:name="com.android.foodorderapp.OrderSucceessActivity" />
+49-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:26:9-59
+49-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:26:19-56
+50        <activity android:name="com.android.foodorderapp.PlaceYourOrderActivity" />
+50-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:27:9-60
+50-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:27:19-57
+51        <activity android:name="com.android.foodorderapp.RestaurantMenuActivity" />
+51-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:28:9-60
+51-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:28:19-57
+52        <activity android:name="com.android.foodorderapp.SplashActivity" >
+52-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:29:9-35:20
+52-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:29:19-49
+53            <intent-filter>
+53-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:30:13-34:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:31:17-69
+54-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:31:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:33:17-77
+56-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:33:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity android:name="com.android.foodorderapp.MainActivity" />
+59-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:36:9-50
+59-->C:\Users\Danila\Desktop\hyina\FoodOrderApp\app\src\main\AndroidManifest.xml:36:19-47
+60
+61        <service
+61-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:23:9-29:19
+62            android:name="com.google.firebase.components.ComponentDiscoveryService"
+62-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:24:13-84
+63            android:directBootAware="true"
+63-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\3d9f000becc44cd1db2d3229c5b0c4aa\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+64            android:exported="false" >
+64-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:25:13-37
+65            <meta-data
+65-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:26:13-28:85
+66                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+66-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:27:17-144
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:28:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-perf:20.0.6] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\b3b0077bd0f7390554d56e4ffdac6b83\jetified-firebase-perf-20.0.6\AndroidManifest.xml:23:13-25:85
+69                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+69-->[com.google.firebase:firebase-perf:20.0.6] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\b3b0077bd0f7390554d56e4ffdac6b83\jetified-firebase-perf-20.0.6\AndroidManifest.xml:24:17-109
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-perf:20.0.6] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\b3b0077bd0f7390554d56e4ffdac6b83\jetified-firebase-perf-20.0.6\AndroidManifest.xml:25:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\a7f726d815ddb0addd635277e52d5393\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:20:13-22:85
+72                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+72-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\a7f726d815ddb0addd635277e52d5393\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:21:17-111
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\a7f726d815ddb0addd635277e52d5393\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:22:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-inappmessaging:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\fe7d39283e9546b879433804731d8262\jetified-firebase-inappmessaging-20.1.2\AndroidManifest.xml:17:13-19:85
+75                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+75-->[com.google.firebase:firebase-inappmessaging:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\fe7d39283e9546b879433804731d8262\jetified-firebase-inappmessaging-20.1.2\AndroidManifest.xml:18:17-129
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-inappmessaging:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\fe7d39283e9546b879433804731d8262\jetified-firebase-inappmessaging-20.1.2\AndroidManifest.xml:19:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-crashlytics:18.2.9] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\4e3d4ad07f982facca060b638d389ae5\jetified-firebase-crashlytics-18.2.9\AndroidManifest.xml:18:13-20:85
+78                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+78-->[com.google.firebase:firebase-crashlytics:18.2.9] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\4e3d4ad07f982facca060b638d389ae5\jetified-firebase-crashlytics-18.2.9\AndroidManifest.xml:19:17-115
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-crashlytics:18.2.9] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\4e3d4ad07f982facca060b638d389ae5\jetified-firebase-crashlytics-18.2.9\AndroidManifest.xml:20:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-functions:20.0.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\f2b4272c0a42cb8e46c83d144ff4b1f2\jetified-firebase-functions-20.0.2\AndroidManifest.xml:18:13-20:85
+81                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
+81-->[com.google.firebase:firebase-functions:20.0.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\f2b4272c0a42cb8e46c83d144ff4b1f2\jetified-firebase-functions-20.0.2\AndroidManifest.xml:19:17-111
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-functions:20.0.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\f2b4272c0a42cb8e46c83d144ff4b1f2\jetified-firebase-functions-20.0.2\AndroidManifest.xml:20:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\3ba7f7c9bc762378f5a477a9e4ec25e9\jetified-firebase-storage-20.0.1\AndroidManifest.xml:33:13-35:85
+84                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+84-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\3ba7f7c9bc762378f5a477a9e4ec25e9\jetified-firebase-storage-20.0.1\AndroidManifest.xml:34:17-107
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\3ba7f7c9bc762378f5a477a9e4ec25e9\jetified-firebase-storage-20.0.1\AndroidManifest.xml:35:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\b9fbc426ea231461a27bcc9b4180ee74\jetified-firebase-database-20.0.4\AndroidManifest.xml:32:13-34:85
+87                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+87-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\b9fbc426ea231461a27bcc9b4180ee74\jetified-firebase-database-20.0.4\AndroidManifest.xml:33:17-109
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-database:20.0.4] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\b9fbc426ea231461a27bcc9b4180ee74\jetified-firebase-database-20.0.4\AndroidManifest.xml:34:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:67:13-69:85
+90                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+90-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:68:17-109
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:69:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\0ddafcf7d04ef949b4ed1bb1d9aa6781\jetified-firebase-iid-20.0.1\AndroidManifest.xml:32:13-34:85
+93                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+93-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\0ddafcf7d04ef949b4ed1bb1d9aa6781\jetified-firebase-iid-20.0.1\AndroidManifest.xml:33:17-96
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\0ddafcf7d04ef949b4ed1bb1d9aa6781\jetified-firebase-iid-20.0.1\AndroidManifest.xml:34:17-82
+95            <meta-data
+95-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\e021c34a82ab4b04a41b96f3a800ac95\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:31:13-33:85
+96                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+96-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\e021c34a82ab4b04a41b96f3a800ac95\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:32:17-139
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\e021c34a82ab4b04a41b96f3a800ac95\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:33:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-config:21.0.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\65839a491b1d6390f5a6e81f432a7645\jetified-firebase-config-21.0.2\AndroidManifest.xml:32:13-34:85
+99                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+99-->[com.google.firebase:firebase-config:21.0.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\65839a491b1d6390f5a6e81f432a7645\jetified-firebase-config-21.0.2\AndroidManifest.xml:33:17-117
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-config:21.0.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\65839a491b1d6390f5a6e81f432a7645\jetified-firebase-config-21.0.2\AndroidManifest.xml:34:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\ec3168b96704fcb30c6a4a21c8268c80\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+102                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+102-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\ec3168b96704fcb30c6a4a21c8268c80\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\ec3168b96704fcb30c6a4a21c8268c80\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-datatransport:18.1.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\6c9c835f78ba8538b358ec93e3f0e909\jetified-firebase-datatransport-18.1.1\AndroidManifest.xml:28:13-30:85
+105                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+105-->[com.google.firebase:firebase-datatransport:18.1.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\6c9c835f78ba8538b358ec93e3f0e909\jetified-firebase-datatransport-18.1.1\AndroidManifest.xml:29:17-115
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-datatransport:18.1.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\6c9c835f78ba8538b358ec93e3f0e909\jetified-firebase-datatransport-18.1.1\AndroidManifest.xml:30:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-abt:21.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\89553533e70a05a0d9e7dad064983bde\jetified-firebase-abt-21.0.1\AndroidManifest.xml:13:13-15:85
+108                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+108-->[com.google.firebase:firebase-abt:21.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\89553533e70a05a0d9e7dad064983bde\jetified-firebase-abt-21.0.1\AndroidManifest.xml:14:17-109
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-abt:21.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\89553533e70a05a0d9e7dad064983bde\jetified-firebase-abt-21.0.1\AndroidManifest.xml:15:17-82
+110        </service>
+111
+112        <provider
+112-->[com.google.firebase:firebase-perf:20.0.6] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\b3b0077bd0f7390554d56e4ffdac6b83\jetified-firebase-perf-20.0.6\AndroidManifest.xml:14:9-18:39
+113            android:name="com.google.firebase.perf.provider.FirebasePerfProvider"
+113-->[com.google.firebase:firebase-perf:20.0.6] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\b3b0077bd0f7390554d56e4ffdac6b83\jetified-firebase-perf-20.0.6\AndroidManifest.xml:15:13-82
+114            android:authorities="com.android.foodorderapp.firebaseperfprovider"
+114-->[com.google.firebase:firebase-perf:20.0.6] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\b3b0077bd0f7390554d56e4ffdac6b83\jetified-firebase-perf-20.0.6\AndroidManifest.xml:16:13-72
+115            android:exported="false"
+115-->[com.google.firebase:firebase-perf:20.0.6] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\b3b0077bd0f7390554d56e4ffdac6b83\jetified-firebase-perf-20.0.6\AndroidManifest.xml:17:13-37
+116            android:initOrder="101" />
+116-->[com.google.firebase:firebase-perf:20.0.6] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\b3b0077bd0f7390554d56e4ffdac6b83\jetified-firebase-perf-20.0.6\AndroidManifest.xml:18:13-36
+117
+118        <activity
+118-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:27:9-44:20
+119            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+119-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:28:13-80
+120            android:excludeFromRecents="true"
+120-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:29:13-46
+121            android:exported="true"
+121-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:30:13-36
+122            android:launchMode="singleTask"
+122-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:31:13-44
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+123-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:32:13-72
+124            <intent-filter>
+124-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:33:13-43:29
+125                <action android:name="android.intent.action.VIEW" />
+125-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:16:13-65
+125-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:16:21-62
+126
+127                <category android:name="android.intent.category.DEFAULT" />
+127-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
+127-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
+128                <category android:name="android.intent.category.BROWSABLE" />
+128-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
+128-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
+129
+130                <data
+130-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:18:13-44
+131                    android:host="firebase.auth"
+132                    android:path="/"
+133                    android:scheme="genericidp" />
+133-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:18:19-41
+134            </intent-filter>
+135        </activity>
+136        <activity
+136-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:45:9-62:20
+137            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+137-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:46:13-79
+138            android:excludeFromRecents="true"
+138-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:47:13-46
+139            android:exported="true"
+139-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:48:13-36
+140            android:launchMode="singleTask"
+140-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:49:13-44
+141            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+141-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:50:13-72
+142            <intent-filter>
+142-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:51:13-61:29
+143                <action android:name="android.intent.action.VIEW" />
+143-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:16:13-65
+143-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:16:21-62
+144
+145                <category android:name="android.intent.category.DEFAULT" />
+145-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
+145-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
+146                <category android:name="android.intent.category.BROWSABLE" />
+146-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
+146-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\44e72f38221d2d8332ea4c813dc2fefa\jetified-firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
+147
+148                <data
+148-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:18:13-44
+149                    android:host="firebase.auth"
+150                    android:path="/"
+151                    android:scheme="recaptcha" />
+151-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\8574ac93c1308d83d68cb020bb07291d\jetified-firebase-inappmessaging-display-20.1.2\AndroidManifest.xml:18:19-41
+152            </intent-filter>
+153        </activity>
+154
+155        <receiver
+155-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\0ddafcf7d04ef949b4ed1bb1d9aa6781\jetified-firebase-iid-20.0.1\AndroidManifest.xml:37:9-44:20
+156            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+156-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\0ddafcf7d04ef949b4ed1bb1d9aa6781\jetified-firebase-iid-20.0.1\AndroidManifest.xml:38:13-78
+157            android:exported="true"
+157-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\0ddafcf7d04ef949b4ed1bb1d9aa6781\jetified-firebase-iid-20.0.1\AndroidManifest.xml:39:13-36
+158            android:permission="com.google.android.c2dm.permission.SEND" >
+158-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\0ddafcf7d04ef949b4ed1bb1d9aa6781\jetified-firebase-iid-20.0.1\AndroidManifest.xml:40:13-73
+159            <intent-filter>
+159-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\0ddafcf7d04ef949b4ed1bb1d9aa6781\jetified-firebase-iid-20.0.1\AndroidManifest.xml:41:13-43:29
+160                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+160-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\0ddafcf7d04ef949b4ed1bb1d9aa6781\jetified-firebase-iid-20.0.1\AndroidManifest.xml:42:17-81
+160-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\0ddafcf7d04ef949b4ed1bb1d9aa6781\jetified-firebase-iid-20.0.1\AndroidManifest.xml:42:25-78
+161            </intent-filter>
+162        </receiver>
+163
+164        <activity
+164-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\d52a3204edb48b9a4b1eaa52d373272c\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+165            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+165-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\d52a3204edb48b9a4b1eaa52d373272c\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+166            android:exported="false"
+166-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\d52a3204edb48b9a4b1eaa52d373272c\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+167            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+167-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\d52a3204edb48b9a4b1eaa52d373272c\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+168
+169        <provider
+169-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\3d9f000becc44cd1db2d3229c5b0c4aa\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+170            android:name="com.google.firebase.provider.FirebaseInitProvider"
+170-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\3d9f000becc44cd1db2d3229c5b0c4aa\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+171            android:authorities="com.android.foodorderapp.firebaseinitprovider"
+171-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\3d9f000becc44cd1db2d3229c5b0c4aa\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+172            android:directBootAware="true"
+172-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\3d9f000becc44cd1db2d3229c5b0c4aa\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+173            android:exported="false"
+173-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\3d9f000becc44cd1db2d3229c5b0c4aa\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+174            android:initOrder="100" />
+174-->[com.google.firebase:firebase-common:20.1.0] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\3d9f000becc44cd1db2d3229c5b0c4aa\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+175
+176        <receiver
+176-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\2f707391bf39ba2299ef22e2de3a5123\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:29:9-33:20
+177            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+177-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\2f707391bf39ba2299ef22e2de3a5123\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:30:13-85
+178            android:enabled="true"
+178-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\2f707391bf39ba2299ef22e2de3a5123\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:31:13-35
+179            android:exported="false" >
+179-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\2f707391bf39ba2299ef22e2de3a5123\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:32:13-37
+180        </receiver>
+181
+182        <service
+182-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\2f707391bf39ba2299ef22e2de3a5123\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:35:9-38:40
+183            android:name="com.google.android.gms.measurement.AppMeasurementService"
+183-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\2f707391bf39ba2299ef22e2de3a5123\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:36:13-84
+184            android:enabled="true"
+184-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\2f707391bf39ba2299ef22e2de3a5123\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:37:13-35
+185            android:exported="false" />
+185-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\2f707391bf39ba2299ef22e2de3a5123\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:38:13-37
+186        <service
+186-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\2f707391bf39ba2299ef22e2de3a5123\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:39:9-43:72
+187            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+187-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\2f707391bf39ba2299ef22e2de3a5123\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:40:13-87
+188            android:enabled="true"
+188-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\2f707391bf39ba2299ef22e2de3a5123\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:41:13-35
+189            android:exported="false"
+189-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\2f707391bf39ba2299ef22e2de3a5123\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:42:13-37
+190            android:permission="android.permission.BIND_JOB_SERVICE" />
+190-->[com.google.android.gms:play-services-measurement:20.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\2f707391bf39ba2299ef22e2de3a5123\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:43:13-69
+191
+192        <meta-data
+192-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\b3c7487e1cf44f97eb958e9c9dbabb86\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+193            android:name="com.google.android.gms.version"
+193-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\b3c7487e1cf44f97eb958e9c9dbabb86\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+194            android:value="@integer/google_play_services_version" />
+194-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\b3c7487e1cf44f97eb958e9c9dbabb86\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+195
+196        <service
+196-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\e659985b224fc17b09648b4047a01fe5\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:29:9-35:19
+197            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+197-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\e659985b224fc17b09648b4047a01fe5\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:30:13-103
+198            android:exported="false" >
+198-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\e659985b224fc17b09648b4047a01fe5\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:31:13-37
+199            <meta-data
+199-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\e659985b224fc17b09648b4047a01fe5\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:32:13-34:39
+200                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+200-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\e659985b224fc17b09648b4047a01fe5\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:33:17-94
+201                android:value="cct" />
+201-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\e659985b224fc17b09648b4047a01fe5\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:34:17-36
+202        </service>
+203        <service
+203-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\6accc9fbca83fd1a34a2b4c969d19fc9\jetified-transport-runtime-3.1.2\AndroidManifest.xml:26:9-30:19
+204            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+204-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\6accc9fbca83fd1a34a2b4c969d19fc9\jetified-transport-runtime-3.1.2\AndroidManifest.xml:27:13-117
+205            android:exported="false"
+205-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\6accc9fbca83fd1a34a2b4c969d19fc9\jetified-transport-runtime-3.1.2\AndroidManifest.xml:28:13-37
+206            android:permission="android.permission.BIND_JOB_SERVICE" >
+206-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\6accc9fbca83fd1a34a2b4c969d19fc9\jetified-transport-runtime-3.1.2\AndroidManifest.xml:29:13-69
+207        </service>
+208
+209        <receiver
+209-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\6accc9fbca83fd1a34a2b4c969d19fc9\jetified-transport-runtime-3.1.2\AndroidManifest.xml:32:9-34:40
+210            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+210-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\6accc9fbca83fd1a34a2b4c969d19fc9\jetified-transport-runtime-3.1.2\AndroidManifest.xml:33:13-132
+211            android:exported="false" />
+211-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\Danila\.gradle\caches\transforms-2\files-2.1\6accc9fbca83fd1a34a2b4c969d19fc9\jetified-transport-runtime-3.1.2\AndroidManifest.xml:34:13-37
+212    </application>
+213
+214</manifest>
